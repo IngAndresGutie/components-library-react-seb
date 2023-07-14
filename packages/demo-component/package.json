@@ -21,5 +21,5 @@
   "scripts": {
     "test": "node ./__tests__/demo-component.test.js"
   },
-  "gitHead": "53a147c9eab128fa37dfa45f9684ffa136f390e0"
+  "gitHead": "c3bbe379b53f2d3181880560af65e29a860d0fb6"
 }
