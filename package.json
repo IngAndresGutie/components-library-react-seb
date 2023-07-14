@@ -1,5 +1,6 @@
 {
   "name": "components-library-seb",
+  "version": "0.0.3",
   "private": "true",
   "scripts": {
     "graph": "npx nx graph",
