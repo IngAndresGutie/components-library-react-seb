@@ -1,0 +1,23 @@
+{
+  "name": "demo-component",
+  "version": "0.0.0",
+  "description": "demo component",
+  "author": "Jaime Andres Gomez Gutierrez <jaime.gomez@netto.com.co>",
+  "homepage": "",
+  "license": "ISC",
+  "main": "lib/demo-component.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://source.developers.google.com/p/bbdd-ia/r/library-React-SEB"
+  },
+  "scripts": {
+    "test": "node ./__tests__/demo-component.test.js"
+  }
+}
