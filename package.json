@@ -1,11 +1,10 @@
 {
   "name": "components-library-seb",
   "version": "0.0.12-alpha.0",
-  "private": false,
   "scripts": {
     "graph": "npx nx graph",
     "test": "lerna run test",
-    "publish": "lerna publish"
+    "publish": "lerna publish from-git --no-private --no-verify-registry --no-verify-access"
   },
   "workspaces": [
     "packages/*"
