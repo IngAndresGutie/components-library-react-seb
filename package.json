@@ -1,12 +1,13 @@
 {
   "name": "components-library-seb",
+  "private": "true",
   "scripts": {
     "graph": "npx nx graph",
     "test": "lerna run test",
     "build": "lerna run build",
     "version": "lerna version",
     "postinstall": "lerna run build",
-    "publish": "lerna run build && lerna run tsc && lerna publish --force-publish"
+    "publish": "lerna run build && lerna publish"
   },
   "workspaces": [
     "packages/*"
