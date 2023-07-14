@@ -1,6 +1,6 @@
 {
   "name": "@components-library-seb/demo-component",
-  "version": "0.0.7",
+  "version": "0.0.6",
   "description": "demo component",
   "author": "Jaime Andres Gomez Gutierrez <jaime.gomez@netto.com.co>",
   "homepage": "",
@@ -20,5 +20,5 @@
   "scripts": {
     "test": "node ./__tests__/demo-component.test.js"
   },
-  "gitHead": "86006ea1c3a44aa0df47ae1f56ee61ca797a9055"
+  "gitHead": "53a147c9eab128fa37dfa45f9684ffa136f390e0"
 }
