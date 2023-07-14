@@ -1,6 +1,7 @@
 {
   "name": "components-library-seb",
   "version": "0.0.9",
+  "private": false,
   "scripts": {
     "graph": "npx nx graph",
     "test": "lerna run test",
