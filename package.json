@@ -4,7 +4,7 @@
   "scripts": {
     "graph": "npx nx graph",
     "test": "lerna run test",
-    "publish": "lerna publish from-git --no-private --no-verify-registry --no-verify-access"
+    "publish": "lerna publish from-git --no-private"
   },
   "workspaces": [
     "packages/*"
