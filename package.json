@@ -5,10 +5,7 @@
   "scripts": {
     "graph": "npx nx graph",
     "test": "lerna run test",
-    "build": "lerna run build",
-    "version": "lerna version",
-    "postinstall": "lerna run build",
-    "publish": "lerna run build && lerna publish"
+    "publish": "lerna publish"
   },
   "workspaces": [
     "packages/*"
