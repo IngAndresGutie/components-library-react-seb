@@ -1,7 +1,8 @@
-'use strict';
+'use strict'
 
-module.exports = demoComponent;
+module.exports = demoComponent
 
 function demoComponent() {
-  return 'Hello from demoComponent';
+  console.log('Hello from demoComponent')
+  return 'Hello from demoComponent'
 }
