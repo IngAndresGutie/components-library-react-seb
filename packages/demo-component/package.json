@@ -1,0 +1,26 @@
+{
+  "name": "@components-library-react-seb/demo-component",
+  "version": "0.0.1",
+  "main": "./dist/index.tsx",
+  "types": "./dist/index.tsx",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint \"**/*.ts*\"",
+    "test": "echo 'run tests'",
+    "dev": "npm run build -- --watch",
+    "build": "tsup index.tsx --format cjs --dts",
+    "generate:component": "turbo gen react-component"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.0",
+    "@types/react-dom": "^18.2.0",
+    "eslint": "^7.32.0",
+    "eslint-config-custom": "*",
+    "react": "^17.0.2",
+    "tsconfig": "*",
+    "typescript": "^4.5.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
