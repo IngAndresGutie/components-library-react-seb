@@ -1,6 +1,6 @@
 {
   "name": "web",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": true,
   "scripts": {
     "dev": "next dev",
@@ -13,7 +13,7 @@
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "ui": "*",
-    "@components-library-react-seb/demo-component": "0.0.1"
+    "@components-library-react-seb/demo-component": "0.0.2"
   },
   "devDependencies": {
     "@types/node": "^17.0.12",

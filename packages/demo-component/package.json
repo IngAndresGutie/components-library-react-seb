@@ -1,6 +1,6 @@
 {
   "name": "@components-library-react-seb/demo-component",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "./dist/index.tsx",
   "types": "./dist/index.tsx",
   "license": "MIT",
