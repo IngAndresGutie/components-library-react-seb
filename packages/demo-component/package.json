@@ -1,8 +1,8 @@
 {
   "name": "@components-library-react-seb/demo-component",
-  "version": "0.0.2",
-  "main": "./dist/index.tsx",
-  "types": "./dist/index.tsx",
+  "version": "0.0.6",
+  "main": "index.tsx",
+  "types": "index.tsx",
   "license": "MIT",
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",

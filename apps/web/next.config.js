@@ -1,4 +1,4 @@
 module.exports = {
   reactStrictMode: true,
-  transpilePackages: ["ui"],
-};
+  transpilePackages: ['ui', '@components-library-react-seb/demo-component'],
+}
