@@ -11,7 +11,7 @@
     "storybook": "storybook dev -p 6006"
   },
   "dependencies": {
-    "@components-library-react-seb/demo-component": "0.0.6",
+    "@components-library-react-seb/demo-component": "*",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
