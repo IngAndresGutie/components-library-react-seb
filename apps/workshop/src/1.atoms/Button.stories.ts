@@ -4,9 +4,13 @@ import { Button } from '@components-library-react-seb/demo-component'
 
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction
 const meta = {
-  title: 'Example/Button',
+  title: 'Atoms / Button',
   component: Button,
   tags: ['autodocs'],
+  parameters: {
+    // More on how to position stories at: https://storybook.js.org/docs/react/configure/story-layout
+    layout: 'fullscreen',
+  },
   argTypes: {
     backgroundColor: { control: 'color' },
   },
