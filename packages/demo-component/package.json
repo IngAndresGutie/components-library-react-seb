@@ -1,14 +1,14 @@
 {
   "name": "@components-library-react-seb/demo-component",
   "version": "0.0.6",
-  "main": "index.tsx",
-  "types": "index.tsx",
+  "main": "./src/index.tsx",
+  "types": "./src/index.tsx",
   "license": "MIT",
   "scripts": {
     "lint": "eslint \"**/*.ts*\"",
     "test": "echo 'run tests'",
     "dev": "npm run build -- --watch",
-    "build": "tsup index.tsx --format cjs --dts",
+    "build": "tsup ./src/index.tsx --format cjs --dts",
     "generate:component": "turbo gen react-component"
   },
   "devDependencies": {

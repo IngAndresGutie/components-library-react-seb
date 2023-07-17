@@ -1,32 +1,13 @@
-import './button.css'
+/*** external imports ***/
 
-interface ButtonProps {
-  /**
-   * Is this the principal call to action on the page?
-   */
-  primary?: boolean
-  /**
-   * What background color to use
-   */
-  backgroundColor?: string
-  /**
-   * How large should the button be?
-   */
-  size?: 'small' | 'medium' | 'large'
-  /**
-   * Button contents
-   */
-  label: string
-  /**
-   * Optional click handler
-   */
-  onClick?: () => void
-}
+/*** internal imports ***/
+import './styles.css'
+import { ButtonProps } from '../../types/button'
 
 /**
  * Primary UI component for user interaction
  */
-export const Button = ({
+const Button = ({
   primary = false,
   size = 'medium',
   backgroundColor,
@@ -49,3 +30,5 @@ export const Button = ({
     </button>
   )
 }
+
+export default Button
